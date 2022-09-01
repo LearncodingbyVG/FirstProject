@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css';
 import d from "./d.png";
 import cook from "./cook.png";
+import WhyNumber from './WhyNumber';
 
 
 export default function Home() {
@@ -66,18 +67,10 @@ export default function Home() {
       </div>
       <div className="container mx-auto" id='scroll'>
         <div className="row mx-auto">
-          <div className="col order 3 menu">
-            <h1 className='text-center head'> 40+ </h1>
-            <p className='text-center parap'> Food Partners</p>
-          </div>
-          <div className="col order-3 menu">
-            <h1 className='text-center head'> 460+</h1>
-            <p className='text-center parap'> Trusted Clients</p>
-          </div>
-          <div className="col order-3 menu">
-            <h1 className='text-center head'> 15k+ </h1>
-            <p className='text-center parap'> Orders</p>
-          </div>
+         
+        <WhyNumber number={40} numberDesc={"Food Partners"}/>
+        <WhyNumber number={100} numberDesc={"Trusted Clients"}/>
+        <WhyNumber number={'15k'} numberDesc={"Orders"}/>
         </div>
       </div>
 
