@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+
+
+.healthy{
+    color: green;
+}
+
+.love{
+    color: red;
+    font-size: large;
+}
+
+.heading{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 50px;
+}
+
+.para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 30px;
+}
+
+.box{
+ width: 80vh;
+ height: 80vh;
+ margin: auto;
+ position: absolute;
+ margin-top: 31px;
+
+}
+
+
+img.cook {
+    position: absolute;
+    left: 0;
+}
+
+.dialog-2 {
+    background-color: bisque;
+    width: 40%;
+    height: 18%;
+    position: absolute;
+    right: 0;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.right-point {
+    width: 0;
+    height: 0;
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    border-top: 10vh solid bisque;
+    position: absolute;
+    top: 40%;
+    right: 100%;
+    transform: rotate(60deg);
+}
+
+.parap{
+    color: #E8BD0D;
+    font-weight: bold;
+}
+
