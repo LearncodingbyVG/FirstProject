@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+
+
+.para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.learn{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.boxes {
+    height: 280px;
+    width:100vw;
+    background-color: grey;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-vector/green-grunge-detailed-texture-white-background_1409-1362.jpg?w=2000');
+}
+
+.boxes:hover{
+    opacity: 0.9;
+}
+
+.infoAbout{
+    color:#000;
+    padding: 8px 32px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.image-three:hover{
+ opacity: 0.6;
+}

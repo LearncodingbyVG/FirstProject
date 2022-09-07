@@ -3,6 +3,7 @@ import './Home.css';
 import d from "./d.png";
 import cook from "./cook.png";
 import WhyNumber from './WhyNumber';
+import About from '../About/About';
 
 
 export default function Home() {
@@ -73,6 +74,8 @@ export default function Home() {
         <WhyNumber number={'15k'} numberDesc={"Orders"}/>
         </div>
       </div>
+
+      <About/>
 
   
     </>
