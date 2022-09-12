@@ -4,6 +4,7 @@ import d from "./d.png";
 import cook from "./cook.png";
 import WhyNumber from './WhyNumber';
 import About from '../About/About';
+import Top from '../TopPicks/Top';
 
 
 export default function Home() {
@@ -76,6 +77,7 @@ export default function Home() {
       </div>
 
       <About/>
+      <Top/>
 
   
     </>
