@@ -5,6 +5,7 @@ import cook from "./cook.png";
 import WhyNumber from './WhyNumber';
 import About from '../About/About';
 import Top from '../TopPicks/Top';
+import Contact from '../Contact/Contact';
 
 
 export default function Home() {
@@ -78,6 +79,7 @@ export default function Home() {
 
       <About/>
       <Top/>
+      <Contact/>
 
   
     </>
